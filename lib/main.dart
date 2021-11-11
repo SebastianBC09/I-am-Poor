@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 void main() {
   runApp(
@@ -21,6 +22,9 @@ void main() {
             title: const Center(
               child: Text('I am poor'),
             ),
+          ),
+          body: Center(
+              child: SvgPicture.asset('images/poor_men.svg'),
           ),
         ),
       ),
