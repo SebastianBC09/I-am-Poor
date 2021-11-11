@@ -17,7 +17,7 @@ void main() {
         child: Scaffold(
           backgroundColor: Colors.transparent,
           appBar: AppBar(
-            backgroundColor: Color(0xFF212121),
+            backgroundColor: const Color(0xFF212121),
             title: const Center(
               child: Text('I am poor'),
             ),
